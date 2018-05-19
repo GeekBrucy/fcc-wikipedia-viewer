@@ -31,3 +31,9 @@ ul, a {
   list-style-type: none;
   text-decoration: none;
 }
+
+button {
+  border: 0;
+  outline: none;
+  background-color: transparent;
+}
