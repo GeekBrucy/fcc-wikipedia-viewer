@@ -5,7 +5,9 @@ html, body {
   overflow: auto;
   box-sizing: border-box
 }
-
+a, a:active, a:focus, a:visited {
+  color: #000
+}
 .container {
   width: 80%;
   margin: 0 auto;
@@ -38,9 +40,9 @@ html, body {
   text-align: center;
 }
 .pg-content .search-bar .search-input {
-  padding: .25rem 1rem;
+  padding: .25rem .75rem;
   font-size: 1.25rem;
-  vertical-align: middle
+  vertical-align: middle;
 }
 .pg-content .search-bar .search-submit {
   font-size: 1.25rem;
@@ -49,7 +51,10 @@ html, body {
   background: #000;
   vertical-align: middle;
 }
-
+.pg-content .random-pick {
+  text-align: center;
+  padding: 1rem 0;
+}
 .pg-content .result {
   margin-top: 3rem;
 }
@@ -57,11 +62,17 @@ html, body {
   border: 2px solid #ccc;
   margin-bottom: 1rem;
   padding: 1rem;
-  box-shadow: 0px 3px 5px #ccc
+  box-shadow: 0px 3px 5px #ccc;
+  text-align: center
 }
 .pg-content .result .result-title {
   text-align: center;
   font-size: 1.5rem;
   margin-bottom: 1rem;
+}
+.pg-content .result .result-container a {
+  display: block;
+  width: 100%;
+  height: 100%;
 }
 /**************** pg-header END ****************/
